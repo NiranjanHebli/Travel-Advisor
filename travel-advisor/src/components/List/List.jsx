@@ -7,7 +7,7 @@ const List = () => {
 
 const classes=useStyles();
 const [type,setType]= useState('restaurants');
-const [rating,setRating]= useState('');
+const [rating,setRating]= useState(null);
 
 const places=[
     {name:'Cool Places'},
